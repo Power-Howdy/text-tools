@@ -3,6 +3,7 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { Layout } from "@/components/Layout";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "TextTools - Free Online Text Utilities for Writers & Marketers",
@@ -41,6 +42,7 @@ export default function RootLayout({
         className={`${GeistSans.variable} ${GeistMono.variable} font-sans antialiased`}
       >
         <Layout>{children}</Layout>
+        <Analytics />
       </body>
     </html>
   );
