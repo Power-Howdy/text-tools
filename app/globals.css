@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAFAF9;
+  --foreground: #1C1917;
+  --accent: #EA580C;
+}
+
+.dark {
+  --background: #0F172A;
+  --foreground: #F8FAFC;
+  --accent: #F59E0B;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  background-image: url('/background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background-image: url('/background-dark.png');
+}
