@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://text-tools-iota.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://text-tools-iota.vercel.app/tools</loc>
+  </url>
+  <url>
+    <loc>https://text-tools-iota.vercel.app/tools/case-converter</loc>
+  </url>
+  <url>
+    <loc>https://text-tools-iota.vercel.app/tools/lorem-ipsum</loc>
+  </url>
+  <url>
+    <loc>https://text-tools-iota.vercel.app/tools/random-text-generator</loc>
+  </url>
+  <url>
+    <loc>https://text-tools-iota.vercel.app/tools/remove-duplicate-lines</loc>
+  </url>
+  <url>
+    <loc>https://text-tools-iota.vercel.app/tools/remove-extra-spaces</loc>
+  </url>
+  <url>
+    <loc>https://text-tools-iota.vercel.app/tools/slug-generator</loc>
+  </url>
+  <url>
+    <loc>https://text-tools-iota.vercel.app/tools/text-sorter</loc>
+  </url>
+  <url>
+    <loc>https://text-tools-iota.vercel.app/tools/word-counter</loc>
+  </url>
+</urlset>

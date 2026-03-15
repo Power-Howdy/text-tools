@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://text-tools-iota.vercel.app/sitemap.xml
