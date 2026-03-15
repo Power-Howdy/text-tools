@@ -8,7 +8,29 @@ import { Analytics } from "@vercel/analytics/next"
 export const metadata: Metadata = {
   title: "TextTools - Free Online Text Utilities for Writers & Marketers",
   description:
-    "Word counter, case converter, text sorter, remove duplicates, slug generator, and more. Free text tools with no sign-in required.",
+    "Word counter, case converter, text sorter, remove duplicates, slug generator, and more. Free text tools with no sign-in required. By Severus Snape.",
+  keywords: [
+    "text tools",
+    "word counter",
+    "case converter",
+    "free online tools",
+    "writer tools",
+    "marketing tools",
+    "text utilities",
+    "slug generator",
+    "lorem ipsum",
+    "remove duplicate lines",
+    "text sorter",
+    "Severus Snape",
+    "Full Stack Developer",
+    "Javascript Developer",
+    "Next.js Developer",
+    "React Developer",
+    "TypeScript Developer",
+    "Frontend Developer",
+    "Web Developer",
+  ],
+  authors: [{ name: "Severus Snape" }],
   openGraph: {
     title: "TextTools - Free Online Text Utilities",
     description:

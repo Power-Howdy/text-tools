@@ -1,5 +1,29 @@
+import type { Metadata } from "next";
 import { ToolCard } from "@/components/ToolCard";
 import { TOOLS } from "@/lib/tools";
+
+export const metadata: Metadata = {
+  title: "Free Online Text Tools for Writers, Marketers & Students",
+  description:
+    "Free text utilities: word counter, case converter, text sorter, remove duplicates, slug generator, lorem ipsum and more. No sign-in. All tools run in your browser. By a Full Stack Developer.",
+  keywords: [
+    "free text tools",
+    "online word counter",
+    "case converter",
+    "text sorter",
+    "writer tools",
+    "marketing text tools",
+    "student tools",
+    "no sign up",
+    "Full Stack Developer",
+    "Javascript Developer",
+    "Next.js Developer",
+    "React Developer",
+    "TypeScript Developer",
+    "Frontend Developer",
+    "Web Developer",
+  ],
+};
 
 export default function HomePage() {
   return (
